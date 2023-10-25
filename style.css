@@ -140,4 +140,12 @@ height: 150px;
 .s{
 color: white;
 }
-.foot{}
+
+@media screen and (max-width:450px ) {
+    .box3{
+        height: 60%;
+        grid-template-rows: repeat(4,3fr);
+        grid-template-columns: repeat(2,3fr);
+    }
+    
+}
