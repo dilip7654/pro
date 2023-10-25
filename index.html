@@ -4,149 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-            
-        .container{
-            width: 100vw;
-            height: 270vh;
-            border: 2px solid black;
-            background-color: bisque;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .box1{
-            width: 80%;
-            height: 30%;
-            border: 1px solid black;
-            background-color: black;
-            /* margin: 10px; */
-            padding: 10px;
-        }
-        .box2{
-            width: 80%;
-            height: 30%;
-            border: 1px solid black;
-            background-color: white;
-            /* margin: 10px; */
-            padding: 10px;
-
-        }
-        .box3{
-            width: 80%;
-            height: 40%;
-            border: 1px solid black;
-            background-color: red;
-            /* margin: 10px; */
-            padding: 10px;
-            display: grid;
-            padding:4rem;
-            row-gap: 1rem;
-            column-gap: 1rem;
-            grid-template-columns: repeat(3,2fr);
-            grid-template-rows: repeat(3,2fr);
-           
-        }
-        .item1{
-            border: 1px solid black;
-            background-color:black;
-            padding: 10px;
-        }
-        .item2{
-            border: 1px solid black;
-            background-color:black;
-            padding: 10px;
-        }
-        .item3{
-            border: 1px solid black;
-            background-color:black;
-            padding: 10px;
-            
-        } 
-        .item4{
-            border: 1px solid black;
-            background-color:black;
-            padding: 10px;
-        }
-        .item5{
-            border: 1px solid black;
-            background-color:black;
-            padding: 10px;
-        }
-        .item6{
-            border: 1px solid black;
-            background-color:black;
-            padding: 10px;
-        }
-        .a{
-            float: right;
-            clear: left;
-        }
-        .b{
-            float: right;
-            clear: left;
-        }
-        ul {
-            list-style-type: none;
-             margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-          }
-
-        .list {
-          float: right;
-         border-right:1px solid #bbb;
-        }
-
-        .list:last-child {
-           border-right: 1px solid #bbb;
-        }
-
-        .list a {
-          display: block;
-          color: white;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-        }
-         .list:hover {
-             background-color: green;
-        }
-        .button1 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #4CAF50;
-}
-
-.button1:hover {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.img1{
-    float: right;
-    clear: left;
-}
-.img2{
-    float: right;
-}
-.image{
-    float: right;
-    width: 150px;
-    height: 150px;
-}
-.s{
-    color: white;
-}
-.foot{}
- </style>
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -162,7 +20,8 @@
                 </ul>
                 <script>
                     function myFunction() {
-                  alert("Welocme to VAUBAN");
+                      const name = prompt("what is your name");
+                      alert(`Hello my man ${name}`)
                     
                     }</script>
             </nav></div>
